@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Support+Y</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src= 
+    "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"> 
+        </script> 
+        <style>section {
+            min-height: 50vh;
+            text-align: center;
+         }</style>
+  </head>
+  <body>
+    <nav>
+      <a href="#">Features</a>
+      <a href="login.html" target="blank">log in</a>
+      <a href="signup.html" target="blank">create an account</a>
+    </nav>
+    <header>
+      <h1>Support+Y</h1>
+    </header>
+    <!--
+        This is the Main body of the Home Page
+    -->
+    <section>
+      <h5>This will be tha Landing page</h5>
+    </section>
+    <section id="login">
+      <button><a href="login.html" target="blank">Click Here to Log in</a></button>
+      <h5>Or</h5>
+      <button><a href="signup.html" target="blank"> create an Account</a></button>
+    </section>
+    <footer>
+      <a href="#">FAQ</a>
+      <a href="#">Contact Us</a>
+      <a href="#">&copy Support+Y</a>
+    </footer>
+  </body>
+</html>
