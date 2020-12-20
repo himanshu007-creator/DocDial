@@ -4,10 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="google-signin-scope" content="profile email" />
-    <meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com">
+    <meta name="google-signin-client_id" content="941841587049-i3j37vlk7pbg5vs2ht4jdnfgijbe3q0t.apps.googleusercontent.com">
     <meta
       name="google-signin-client_id"
-      content="YOUR_CLIENT_ID.apps.googleusercontent.com"
+      content="941841587049-i3j37vlk7pbg5vs2ht4jdnfgijbe3q0t.apps.googleusercontent.com"
     />
     <script src="https://apis.google.com/js/platform.js" async defer></script>
     <link rel="stylesheet" href="style.css">
@@ -24,15 +24,14 @@
 }
     </style>
     
-
+   
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <title>Sign Up</title>
   </head>
   <body>
-    
-    <!-- From here the sign up Form-->
+       <!-- From here the new Form-->
 
     <div class="container">
         <div class="row justify-content-center mt-5">
@@ -51,10 +50,10 @@
                                     <input type="text" class="form-control form-control-sm" placeholder="Last Name" required>
                                 </div>
                                 <div class="mb-2"><b id="signup"> Enter Your Username</b>
-                                    <input type="text" class="form-control form-control-sm" placeholder="Username" required>
+                                    <input type="text" class="form-control form-control-sm" placeholder="Username" >
                                 </div>
                                 <div class="mb-2"><b id="signup">Enter Your Email Address</b>
-                                    <input type="text" class="form-control form-control-sm" placeholder="Enter Email" required>
+                                    <input type="email" class="form-control form-control-sm" placeholder="Enter Email" required>
                                 </div>
                                 <div class="mb-2"><b id="signup">Enter Your Password</b>
                                     <input type="password" class="form-control form-control-sm" placeholder="Password" required>
@@ -62,10 +61,29 @@
                                 <div class="mb-2"><b id="signup">Confirm Your Password</b>
                                     <input type="password" class="form-control form-control-sm" placeholder="Confirm Password" required>
                                 </div>
+                                <div class="mb-2"><b id="signup">Enter Your Date of Birth</b>
+                                    <input type="date" class="form-control form-control-sm" placeholder="Enter Your Date of Birth" required>
+                                </div>                               
+                                    <label for="gender"><div class="mb-2"><b id="signup">Chose Your Gender</b></label>
+                                    <select name="gender" id="gender" class="form-control form-control-sm" required>
+                                        <option value="#">Select Your Gender</option>
+                                        <option value="Male">Male</option>
+                                        <option value="Female">Female</option>
+                                        <option value="Transgender">Transgender</option>
+                                        <option value="Prefer not to say">Prefer not to say</option>
+                                    </select>
+                                    <label for="area"><div class="mb-2"><b id="signup">Chose Your Region</b></label>
+                                        <select name="location" id="location" class="form-control form-control-sm" required>
+                                            <option value="#">Select Your Region</option>
+                                      
+                                            <option value="Others">Others</option>
+                                        </select>
+
+                                </div>
                                 <p>
                                     <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
                                     By creating an account you agree to our
-                                    <a href="#" style="color: dodgerblue">Terms & Privacy</a>.
+                                    <a href="terms.html" style="color: dodgerblue" target="blank">Terms & Conditions</a>.
                                   </p>
                                 <div class="mb-2">
                                     <input type="submit" class="btn btn-block btn-sm btn-success" value="Sign Up">
@@ -81,8 +99,8 @@
                                   </div>
                                   <section><h5 style="text-align: center;">Or</h5></section>
                                     <!-- Sign in with Google -->
-                                    <div id="my-signin2" style="text-align: center;"></div>
-                                    <script ~align='center'~>
+                                    <div id="my-signin2" style="text-align:inherit;"></div>
+                                    <script>
                                       function onSuccess(googleUser) {
                                         console.log('Logged in as: ' + googleUser.getBasicProfile().getName());
                                       }
