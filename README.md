@@ -7,4 +7,4 @@ So DocDial helps your to find the best AVAILABLE doctor near you that can help y
 We have a big database of doctors:angel: and the actual ones who Will be available to help you out!:blush:
 
 # DocDial™
-#the future of medical assistance:syringe::pill::sparkles:
+# the future of medical assistance:syringe::pill::sparkles:
