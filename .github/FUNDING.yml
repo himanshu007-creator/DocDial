@@ -9,4 +9,5 @@ community_bridge: # Replace with a single Community Bridge project-name e.g., cl
 liberapay: # Replace with a single Liberapay username
 issuehunt: # Replace with a single IssueHunt username
 otechie: # Replace with a single Otechie username
-custom: # '19HFExJ3oGLEZJ26mjEtGCbsfoTaBYUBi8' ,'0x781d017C5332fc9f3ccD36e13b3848554ef12F7B'
+bitcoin: '19HFExJ3oGLEZJ26mjEtGCbsfoTaBYUBi8' 
+etherium: '0x781d017C5332fc9f3ccD36e13b3848554ef12F7B'
